@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nahid\\source\\repos\\xWeather\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\drivers\\weatherapi\\responses\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:drivers\\weatherapi\\responses\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\drivers\\weatherapi\\responses\\current.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:drivers\\weatherapi\\responses\\current.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\drivers\\weatherapi\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:drivers\\weatherapi\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\drivers\\weatherapi\\weatherapidriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:drivers\\weatherapi\\weatherapidriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\drivers\\iweatherdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:drivers\\iweatherdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|c:\\users\\nahid\\source\\repos\\xweather\\drivers\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5503E4D-80F3-415F-9057-B2D7FDFAF1BD}|xWeather.csproj|solutionrelative:drivers\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherApiDriver.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\WeatherApiDriver.cs",
+              "RelativeDocumentMoniker": "Drivers\\WeatherApi\\WeatherApiDriver.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\WeatherApiDriver.cs",
+              "RelativeToolTip": "Drivers\\WeatherApi\\WeatherApiDriver.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:22:02.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Condition.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\Responses\\Condition.cs",
+              "RelativeDocumentMoniker": "Drivers\\WeatherApi\\Responses\\Condition.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\Responses\\Condition.cs",
+              "RelativeToolTip": "Drivers\\WeatherApi\\Responses\\Condition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:20:23.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Current.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\Responses\\Current.cs",
+              "RelativeDocumentMoniker": "Drivers\\WeatherApi\\Responses\\Current.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\Responses\\Current.cs",
+              "RelativeToolTip": "Drivers\\WeatherApi\\Responses\\Current.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:12:16.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\Responses\\Response.cs",
+              "RelativeDocumentMoniker": "Drivers\\WeatherApi\\Responses\\Response.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherApi\\Responses\\Response.cs",
+              "RelativeToolTip": "Drivers\\WeatherApi\\Responses\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:10:19.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherData.cs",
+              "RelativeDocumentMoniker": "Drivers\\WeatherData.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\WeatherData.cs",
+              "RelativeToolTip": "Drivers\\WeatherData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:06:56.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IWeatherDriver.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\IWeatherDriver.cs",
+              "RelativeDocumentMoniker": "Drivers\\IWeatherDriver.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Drivers\\IWeatherDriver.cs",
+              "RelativeToolTip": "Drivers\\IWeatherDriver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:05:01.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nahid\\source\\repos\\xWeather\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nahid\\source\\repos\\xWeather\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:03:12.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
