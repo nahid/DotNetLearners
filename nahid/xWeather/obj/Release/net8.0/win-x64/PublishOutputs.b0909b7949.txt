@@ -1,5 +1,0 @@
-C:\Users\nahid\source\repos\xWeather\dist\xWeather.exe
-C:\Users\nahid\source\repos\xWeather\dist\xWeather.dll
-C:\Users\nahid\source\repos\xWeather\dist\xWeather.deps.json
-C:\Users\nahid\source\repos\xWeather\dist\xWeather.runtimeconfig.json
-C:\Users\nahid\source\repos\xWeather\dist\xWeather.pdb
