@@ -1,0 +1,37 @@
+# .NET build output
+bin/
+obj/
+dist/
+
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+packages/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Compiled C# source
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# Visual Studio test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.userprefs
