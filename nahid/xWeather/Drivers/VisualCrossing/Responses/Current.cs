@@ -5,21 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json.Serialization;
 
-namespace xWeather.Drivers.WeatherApi.Responses
+namespace xWeather.Drivers.VisualCrossing.Responses
 {
     internal class Current
     {
-        [JsonPropertyName("temp_c")]
+        [JsonPropertyName("temp")]
         public double Temperature { get; set; }
-        [JsonPropertyName("wind_kph")]
+        [JsonPropertyName("windspeed")]
         public double WindSpeed { get; set; }
         [JsonPropertyName("humidity")]
         public double Humidity { get; set; }
-        [JsonPropertyName("pressure_mb")]
+        [JsonPropertyName("pressure")]
         public double Pressure { get; set; }
-        [JsonPropertyName("Time")]
-        public DateTime Time { get; set; }
-        [JsonPropertyName("condition")]
-        public Condition Condition { get; set; } = new Condition();
+        [JsonPropertyName("conditions")]
+        public string Condition { get; set; } = "";
     }
 }

@@ -8,8 +8,8 @@ namespace xWeather.Drivers
 {
     internal class WeatherData
     {
-        public string Location { get; set; }
-        public string Condition { get; set; }
+        public string Location { get; set; } = "";
+        public string Condition { get; set; } = "";
         public double Temperature { get; set; }
         public double Humidity { get; set; }
         public double WindSpeed { get; set; }
