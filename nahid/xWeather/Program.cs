@@ -10,40 +10,38 @@ namespace xWeather
         {
             string? location = null;
             string provider = "weatherapi";
-
-            if (args.Length == 0)
-            {
-                
-                throw new ArgumentException();
-            }
-
-
-
-            location = args[0];
             
-
-            Console.WriteLine($"len: {args.Length}, location: {args[0]}");
-
-
-            if (location == null)
+            if (args.Length != 0)
             {
-                Console.WriteLine("No location found!");
-                return;
-            }
-
-            if (args.Length > 1 && args[1] == "-p")
-            {
-                if (args.Length < 3)
+                if (args[0] != "--p") 
                 {
-                    Console.WriteLine("No provider found!");
-                    return;
+                    location = args[0].Trim();
+
+                    if (args.Length > 1 && args[1] == "--p")  
+                    {
+                        if (args.Length > 2 && !string.IsNullOrEmpty(args[2]))
+                        {
+                            provider = args[2].Trim();
+                        }
+                    }
                 }
-
-                provider = args[2];
-
+                else if (args[0] == "--p")
+                {
+                    if (args.Length > 1 && !string.IsNullOrEmpty(args[1]))
+                    {
+                        provider = args[1].Trim();
+                    }
+                }
             }
 
             WeatherManager wm = new WeatherManager(provider);
+
+            if(location==null){
+                Task<string> currentLocation = WeatherManager.GetLocation();
+                location = currentLocation.Result;
+            }
+            Console.WriteLine($"len: {args.Length}, location: {location}");
+
             Task<WeatherData> weatherTask = wm.GetWeather(location);
 
             Console.ForegroundColor = ConsoleColor.Green;
@@ -60,9 +58,6 @@ namespace xWeather
             Console.ResetColor();
 
             table.Write();
-
-
-
         }
     }
 }

@@ -34,7 +34,7 @@ namespace xWeather.Drivers.WeatherApi
                     {
                         Location = location,
                         Condition = weatherResponse.Current.Condition.Text,
-                        Temperature = weatherResponse.Current.Temperature,
+                        Temperature = (int) weatherResponse.Current.Temperature,
                         Humidity = weatherResponse.Current.Humidity,
                         WindSpeed = weatherResponse.Current.WindSpeed,
                         Pressure = weatherResponse.Current.Pressure,
