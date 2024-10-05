@@ -13,11 +13,11 @@ namespace xWeather
             
             if (args.Length != 0)
             {
-                if (args[0] != "--p") 
+                if (args[0] != "-p" || args[0] != "--p") 
                 {
                     location = args[0].Trim();
 
-                    if (args.Length > 1 && args[1] == "--p")  
+                    if (args.Length > 1 && (args[1] != "-p" || args[1] != "--p"))  
                     {
                         if (args.Length > 2 && !string.IsNullOrEmpty(args[2]))
                         {
@@ -25,7 +25,7 @@ namespace xWeather
                         }
                     }
                 }
-                else if (args[0] == "--p")
+                else if (args[0] != "-p" || args[0] != "--p")
                 {
                     if (args.Length > 1 && !string.IsNullOrEmpty(args[1]))
                     {
