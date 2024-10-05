@@ -13,16 +13,24 @@ namespace xWeather
 
             if (args.Length == 0)
             {
-                
-                throw new ArgumentException();
+                // If no arguments, prompt the user to enter a location
+                Console.WriteLine("No location provided. Please enter the location:");
+                location = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(location))
+                {
+                    Console.WriteLine("No location found!");
+                    return;
+                }
             }
-
-
-
-            location = args[0];
+            else
+            {
+                // If arguments are provided, use the first one as the location
+                location = args[0];
+            }
             
 
-            Console.WriteLine($"len: {args.Length}, location: {args[0]}");
+            Console.WriteLine($"len: {args.Length}, location: {location}");
 
 
             if (location == null)
