@@ -18,14 +18,13 @@ namespace xWeather
                 _ => throw new ArgumentException("Invalid provider")
             };
 
-
+          
         }
 
         public async Task<WeatherData> GetWeather(string location)
         {
             return await _driver.GetWeather(location);
         }
-
         public static Task<string> GetLocation()
         {
             return Task.Run(static () =>
