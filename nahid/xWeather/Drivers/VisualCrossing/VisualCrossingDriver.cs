@@ -35,7 +35,7 @@ namespace xWeather.Drivers.VisualCrossing
                     {
                         Location = location,
                         Condition = weatherResponse.Current.Condition,
-                        Temperature = (weatherResponse.Current.Temperature - 32) * (5.0 / 9),
+                        Temperature = (int) ((weatherResponse.Current.Temperature - 32) * (5.0 / 9)),
                         Humidity = weatherResponse.Current.Humidity,
                         WindSpeed = weatherResponse.Current.WindSpeed,
                         Pressure = weatherResponse.Current.Pressure,
