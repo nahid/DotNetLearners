@@ -4,11 +4,12 @@ public static class InputHandlerFactory
 {
     public static IInputHandler CreateInputHandler(string[] args)
     {
-        // if (args.Length > 0)
-        // {
-        //     return new ArgumentInputHandler(args);
-        // }
+        if (args.Length > 0)
+        {
+            return new ArgumentInputHandler(args);
+        }
 
-        return new ArgumentInputHandler(args);
+        return new ConsoleInputHandler();
+
     }
 }

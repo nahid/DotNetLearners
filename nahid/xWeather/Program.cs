@@ -10,7 +10,8 @@ namespace xWeather
     {
         static void Main(string[] args)
         {
-            IInputHandler inputHandler = InputHandlerFactory.CreateInputHandler(args);
+            //IInputHandler inputHandler = InputHandlerFactory.CreateInputHandler(args);
+            IInputHandler inputHandler = DefaultInputHandlerFactory.CreateInputHandler(args);
 
             string location = inputHandler.GetLocation();
             string provider = inputHandler.GetProvider();
@@ -19,7 +20,7 @@ namespace xWeather
             Task<WeatherData> weatherTask = wm.GetWeather(location);
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Weather for {location}");
+            Console.WriteLine($"Weather for {location} on " + weatherTask.Result.Time);
             Console.ResetColor();
 
             var table = new ConsoleTable("#", "Value");
@@ -32,9 +33,6 @@ namespace xWeather
             Console.ResetColor();
 
             table.Write();
-
-
-
         }
     }
 }

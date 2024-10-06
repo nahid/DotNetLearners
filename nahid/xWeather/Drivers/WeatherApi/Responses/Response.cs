@@ -11,5 +11,8 @@ namespace xWeather.Drivers.WeatherApi.Responses
     {
         [JsonPropertyName("current")]
         public Current Current { get; set; } = new Current();
+
+        [JsonPropertyName("location")]
+        public Location Location { get; set; } = new Location();
     }
 }

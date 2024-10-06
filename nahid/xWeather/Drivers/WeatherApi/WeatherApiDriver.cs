@@ -25,6 +25,7 @@ namespace xWeather.Drivers.WeatherApi
       
                     var weatherResponse = JsonSerializer.Deserialize<Response>(content);
 
+
                     if (weatherResponse == null)
                     {
                         throw new Exception("Failed to get weather data");
@@ -32,13 +33,13 @@ namespace xWeather.Drivers.WeatherApi
 
                     return new WeatherData
                     {
-                        Location = location,
+                        Location = weatherResponse.Location.Name,
                         Condition = weatherResponse.Current.Condition.Text,
                         Temperature = (int) weatherResponse.Current.Temperature,
                         Humidity = weatherResponse.Current.Humidity,
                         WindSpeed = weatherResponse.Current.WindSpeed,
                         Pressure = weatherResponse.Current.Pressure,
-                        Time = weatherResponse.Current.Time
+                        Time = DateTime.Parse(weatherResponse.Location.Time)
                     };
                 }
             });
