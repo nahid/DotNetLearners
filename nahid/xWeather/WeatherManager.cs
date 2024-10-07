@@ -16,8 +16,6 @@ namespace xWeather
                 "visualcrossing" => new VisualCrossingDriver(),
                 _ => throw new ArgumentException("Invalid provider")
             };
-
-          
         }
 
         public async Task<WeatherData> GetWeather(string location)

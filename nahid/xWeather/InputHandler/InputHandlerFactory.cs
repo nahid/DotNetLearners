@@ -9,6 +9,7 @@ public static class InputHandlerFactory
             return new ArgumentInputHandler(args);
         }
 
-        return new ConsoleInputHandler();
+        return new DefaultArgumentInputHandler(args);
+
     }
 }

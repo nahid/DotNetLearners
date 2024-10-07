@@ -17,8 +17,7 @@ namespace xWeather.Drivers.WeatherApi.Responses
         public double Humidity { get; set; }
         [JsonPropertyName("pressure_mb")]
         public double Pressure { get; set; }
-        [JsonPropertyName("Time")]
-        public DateTime Time { get; set; }
+       
         [JsonPropertyName("condition")]
         public Condition Condition { get; set; } = new Condition();
     }

@@ -20,7 +20,8 @@ namespace xWeather.Drivers.VisualCrossing
             {
                 using (var client = new HttpClient())
                 {
-                    var today = DateTime.Now.ToString("yyyy-M-d");
+                    var todayDateTime = DateTime.Now;
+                    var today = todayDateTime.ToString("yyyy-M-d");
                     var response = client.GetAsync($"{BaseUrl}/timeline/{location}/{today}/{today}?key={ApiKey}").Result;
                     var content = response.Content.ReadAsStringAsync().Result;
 
@@ -35,11 +36,11 @@ namespace xWeather.Drivers.VisualCrossing
                     {
                         Location = location,
                         Condition = weatherResponse.Current.Condition,
-                        Temperature = (weatherResponse.Current.Temperature - 32) * (5.0 / 9),
+                        Temperature = (int) ((weatherResponse.Current.Temperature - 32) * (5.0 / 9)),
                         Humidity = weatherResponse.Current.Humidity,
                         WindSpeed = weatherResponse.Current.WindSpeed,
                         Pressure = weatherResponse.Current.Pressure,
-                        Time = DateTime.Now
+                        Time = todayDateTime
                     };
                 }
             });
