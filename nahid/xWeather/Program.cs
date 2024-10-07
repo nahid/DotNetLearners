@@ -10,8 +10,7 @@ namespace xWeather
     {
         static void Main(string[] args)
         {
-            //IInputHandler inputHandler = InputHandlerFactory.CreateInputHandler(args);
-            IInputHandler inputHandler = DefaultInputHandlerFactory.CreateInputHandler(args);
+            IInputHandler inputHandler = InputHandlerFactory.CreateInputHandler(args);
 
             string location = inputHandler.GetLocation();
             string provider = inputHandler.GetProvider();
